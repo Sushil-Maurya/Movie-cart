@@ -1,0 +1,349 @@
+.App {
+  text-align: center;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.bg{
+  background-image: url("https://img.freepik.com/free-photo/book-with-green-board-background_1150-3837.jpg?w=2000");
+  /* position: relative; */
+  background-size: "cover";
+  background-color: transparent;
+  padding-bottom: 14%;
+  
+  /* background-repeat:no-repeat; */
+}
+
+.container{
+  background-color: #313333;
+  opacity: .6;
+  font-size: large;
+  font-weight: 600;
+  font-size: larger;
+  color: white;
+  display: flex;
+  text-align: center;
+  /* padding: 10px; */
+  /* margin-bottom: 80px; */
+  /* float: left; */
+}
+.edu{
+  float: left;
+  width: 50%;
+  align-items: center;
+  /* cursor: pointer; */
+}
+
+.home{
+  float: right;
+  /* display: inline; */
+  align-items: center;
+  justify-content: space-between;
+  /* cursor: pointer; */
+  position: absolute;
+  right: 200px;
+  
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.container li{
+  display: inline;
+  padding-right: 40px;
+}
+
+
+.card{
+  display: flex;
+  padding: 150px 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -14%;
+  /* position: absolute; */
+}
+
+.one{
+  background-color: rgb(194, 64, 64);
+  width: 25%;
+  border: 1px solid;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  border-radius: 19px;
+  position: relative;
+  margin: 0 30px;
+}
+
+*{
+  
+  box-sizing: border-box;
+  color: white;
+}
+
+.dic{
+  text-align:justify;
+  padding: 180px 150px;
+  font-size: larger;
+  
+}
+
+ button{
+  border-radius: 5px;
+  padding:  7px 10px;
+  background: #f00606;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.one img{
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+
+.hr{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPfiG5c5aPBMs0qAlMwl3ypekEzomx1bjJADIHfzNvYIhQiJdZ7Qjb5_YZc-2F13-M5Zo&usqp=CAU');
+  background-size: cover;
+  margin-top: -14%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  opacity: .8;
+  z-index: -1;
+  margin-bottom: 10%;
+}
+
+.mtype{
+  float: left;
+  width: 33%;
+}
+
+.type{
+  background-color:rgb(175, 119, 119);
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 50px;
+  width: 45%;
+}
+
+
+
+  @media (max-width: 600px){
+  .shedule{
+    flex:  0 auto;
+    width: 66.66666667%;
+    /* position: absolute; */
+    }
+  }
+
+  .col01{
+      /* --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0; */
+      display: grid;
+      flex-wrap: wrap;
+      grid-template-columns: 600px 600px  ;
+
+      /* margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-.5 * var(--bs-gutter-x));
+      margin-left: calc(-.5 * var(--bs-gutter-x)); */
+  }
+  
+    @media (min-width: 600px){
+    .col02{ 
+    flex: 0 0 auto;
+    width: 50%;
+    /* height: 50%; */
+    margin-right: -100px;
+    }
+  }
+  .col02{
+    margin-right: 5px;
+  }
+
+  .col03{
+    margin-bottom: 20px;
+  }
+  .pht{
+    position: relative;
+  }
+
+  .down{
+    background-color: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+  }
+
+  .time {
+    /* float: left; */
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .pic{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+ 
+
+a img{
+  width: 100%;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: -4px;
+  object-position: center;
+  /* position: absolute; */
+}
+
+.time span{
+  display: block;
+  color: #1f272b;
+  font-size: 22px;
+  margin-top: 7px;
+
+}
+
+.down p{
+  margin-left: 50px;
+    color: #1f272b;
+    font-size: 14px;
+    padding: auto;
+}
+
+.down h4{
+   font-size: 18px;
+    color: #1f272b;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: -82px;
+    padding-left: 50px;
+}
+
+.time h5{
+  font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+    margin-top: -5px;
+}
+
+.degree{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/935/849/231/background-tree-book-wallpaper-preview.jpg');
+    background-size: cover;
+    /* position: relative; */
+    margin-top: -10%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.apply{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner{
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 80px;
+}
+
+.c1{
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.p1{
+  background-color: rgba(250,250,250,0.15);
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.rt{
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.rt1{
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #fff;
+  margin-left: 45px;
+  /* color: #1f272b; */
+}
+
+.art{
+  border-bottom: 1px solid gray;
+}
+.temp.is > * {
+  color: rgb(235, 235, 87);
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.temp{
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f272b;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+  border-bottom: 1px solid #fff;
+}
+
+
+.bob{
+  height: 100px;
+}
+
+.content > *{
+  padding: 20px;
+  color: #1f272b;
+}
